@@ -13,13 +13,16 @@ div.masson {
 	height: 100vw;
 	font-size: 0; 
 }
+
 div.masson img { 
 	width: 33.3%;
-	transition: .3s opacity;
+	transition: .8s opacity;
+
 }
 div.masson:hover img {
 	opacity: 0.3;
 }
+
 div.masson:hover img:hover {
 	opacity: 1;
 }
