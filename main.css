@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+div.masson {
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100vw;
+	font-size: 0; 
+}
+div.masson img { 
+	width: 33.3%;
+	transition: .3s opacity;
+}
+div.masson:hover img {
+	opacity: 0.3;
+}
+div.masson:hover img:hover {
+	opacity: 1;
+}
+
+@media screen and (max-width: 500px) {
+	div.masson { height: 200vw; }
+	div.masson img { width: 50%; }
+}
